@@ -1,9 +1,9 @@
 #include <iostream>
 /*
-    Binary search algorithm
-
+    Binary search algorithm is O(1) in the best case
+	and O(log(n)) in the worst case
 /*
-    Recurtion Method
+    Recursion Method
 */
 int BinarySearch(int arr[] , int low , int high , int key){
 

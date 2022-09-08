@@ -1,12 +1,12 @@
 #include <iostream>
 /*
-    linear search is the best case is o(1)
-    and worth is o(n)
-    */
+    linear search in the best case is o(1)
+    and worst is o(n)
+*/
 
 /*
-    Recurtion Method
-    */
+    Recursion Method
+*/
 int LinearSearchRecursive(int arr[] , int low , int high , int key){
     if(high < low )
         return -1;
